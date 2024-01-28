@@ -1,18 +1,23 @@
 package chapter2;
 
 public class ComputeArea {
-  public static void main(String[] args) {
-    double radius; // Declare radius
-    double area; // Declare area
+    public static void main(String[] args) {
 
-    // Assign a radius
-    radius = 20; // New value is radius
+        // Assign a radius
+        double radius = 20; // New value is radius
 
-    // Compute area
-    area = radius * radius * 3.14159;
+        // Compute area
+        double area = radius * radius * 3.14159;
 
-    // Display results
-    System.out.println("The area for the circle of radius " +
-      radius + " is " + area);
-  }
+        String str = """
+                hdfjshldf
+                dkfhkjdshk
+                djfhkjdsfhs dsfhsdjkdfh ksdhfjdshf sdlfkl
+                """;
+
+        // Display results
+        System.out.println("The area for the circle of radius " +
+                radius + " is " + area);
+
+    }
 }
