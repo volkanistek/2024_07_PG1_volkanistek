@@ -1,0 +1,10 @@
+git clone
+git status
+git log (q for exit)
+
+git add .
+git commit -m "hsjhdjshdjshdj"
+git push
+
+git pull
+git reset blabla.java
