@@ -43,45 +43,45 @@ public class GuessBirthday {
     System.out.print("Is your birthday in Set1?\n");
     System.out.print(set1);
     System.out.print("\nEnter 0 for No and 1 for Yes: ");
-    int answer = input.nextInt();
+    String answer = input.next();
 
-    if (answer == 1)
+    if (answer.charAt(0) == 'Y')
       day += 1;
 
     // Prompt the user to answer questions
     System.out.print("\nIs your birthday in Set2?\n");
     System.out.print(set2);
     System.out.print("\nEnter 0 for No and 1 for Yes: ");
-    answer = input.nextInt();
+    answer = input.next();
 
-    if (answer == 1)
+    if (answer.charAt(0) == 'Y')
       day += 2;
 
     // Prompt the user to answer questions
     System.out.print("Is your birthday in Set3?\n");
     System.out.print(set3);
     System.out.print("\nEnter 0 for No and 1 for Yes: ");
-    answer = input.nextInt();
+    answer = input.next();
 
-    if (answer == 1)
+    if (answer.charAt(0) == 'Y')
       day += 4;
 
     // Prompt the user to answer questions
     System.out.print("\nIs your birthday in Set4?\n");
     System.out.print(set4);
     System.out.print("\nEnter 0 for No and 1 for Yes: ");
-    answer = input.nextInt();
+    answer = input.next();
 
-    if (answer == 1)
+    if (answer.charAt(0) == 'Y')
       day += 8;
 
     // Prompt the user to answer questions
     System.out.print("\nIs your birthday in Set5?\n");
     System.out.print(set5);
     System.out.print("\nEnter 0 for No and 1 for Yes: ");
-    answer = input.nextInt();
+    answer = input.next();
 
-    if (answer == 1)
+    if (answer.charAt(0) == 'Y')
       day += 16;
 
     System.out.println("\nYour birthday is " + day + "!");
